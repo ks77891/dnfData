@@ -1,4 +1,4 @@
-# 构建阶段
+# 构建阶段 - 换成国内代理镜像
 FROM maven:3.9.9-eclipse-temurin-17-focal AS build
 WORKDIR /app
 COPY . .
